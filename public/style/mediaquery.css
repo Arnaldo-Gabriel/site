@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*para tabletes*/
+@media screen and (min-width:500px) {
+    main{
+        width: 80%;
+        margin: auto;
+    }
+    footer{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/*para laptop*/
+@media screen and (min-width:700px){
+    main{
+        width: 65%;
+        margin: auto;
+    }
+    footer{
+        width: 65%;
+        margin: auto;
+    }
+}
+
+/*para desktop*/
+@media screen and (min-width:1000px) {
+    main{
+        width:59%;
+        margin:auto;
+    }
+    footer{
+        width: 59%;
+        margin:auto;
+    }
+}
